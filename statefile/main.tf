@@ -2,7 +2,7 @@ rovider "aws" {
   region = "us-east-1"
 }
 
-resource "aws_instance" "abhishek" {
+resource "aws_instance" "purnachander" {
   instance_type = "t2.micro"
   ami = "ami-0ddddd6789abcde30" # change this
   subnet_id = "subnet-019ea91ed9b5252e7"  
@@ -21,4 +21,4 @@ resource "aws_dynamodb_table" "terraform_lock" {
     name = "LockID"
     type = "S"
   }
-}
+}i
